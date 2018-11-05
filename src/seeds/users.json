@@ -1,0 +1,97 @@
+[
+  {
+    "firstName": "Betty",
+    "lastName": "Crocker",
+    "pets": [
+      {
+        "name": "Flannery",
+        "appointments": [
+          {
+            "date": "2018-10-08 13:00:00"
+          },
+          {
+            "date": "2018-11-22 13:00:00"
+          },
+          {
+            "date": "2018-11-25 12:30:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "firstName": "Danny",
+    "lastName": "Harvest",
+    "pets": [
+      {
+        "name": "Porkchop",
+        "appointments": [
+          {
+            "date": "2017-11-23 10:45:00"
+          },
+          {
+            "date": "2018-11-22 16:30:00"
+          }
+        ]
+      },
+      {
+        "name": "Gravy",
+        "appointments": [
+          {
+            "date": "2017-11-23 10:45:00"
+          },
+          {
+            "date": "2018-11-22 16:30:00"
+          },
+          {
+            "date": "2019-04-10 16:30:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "firstName": "Melissa",
+    "lastName": "Smith",
+    "pets": [
+      {
+        "name": "Magnus",
+        "appointments": [
+          {
+            "date": "2018-05-10 18:00:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "firstName": "Gwen",
+    "lastName": "Liu",
+    "pets": [
+      {
+        "name": "Huey",
+        "appointments": [
+          {
+            "date": "2018-12-15 10:45:00"
+          }
+        ]
+      },
+      {
+        "name": "Duey",
+        "appointments": [
+          {
+            "date": "2018-12-15 10:45:00"
+          }
+        ]
+      },
+      {
+        "name": "Louie",
+        "appointments": [
+          {
+            "date": "2018-12-15 10:45:00"
+          }
+        ]
+      }
+    ]
+  }
+]

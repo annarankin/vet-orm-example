@@ -1,0 +1,18 @@
+import { Entity, Column, BaseEntity, PrimaryColumn, Timestamp, ManyToOne, JoinColumn } from 'typeorm'
+import { User } from './User'
+
+@Entity('pets_with_upcoming_appointments', { synchronize: false })
+export class PetWithUpcomingAppointment extends BaseEntity {
+  @PrimaryColumn({ name: 'pet_id' })
+  petId: number
+
+  @ManyToOne(type => User, user => user.pets)
+  @JoinColumn({ name: 'user_id' })
+  user: User
+
+  @Column({ name: 'pet_name' })
+  petName: string
+
+  @Column({ name: 'next_appointment_date', type: 'timestamp' })
+  nextAppointmentDate: Timestamp
+}

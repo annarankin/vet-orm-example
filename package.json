@@ -1,0 +1,21 @@
+{
+   "name": "vet-orm-example",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "ts-node": "^3.3.0",
+      "typescript": "^2.9.2"
+   },
+   "dependencies": {
+      "better-console": "^1.0.1",
+      "pg": "^7.3.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.8"
+   },
+   "scripts": {
+      "seed": "ts-node src/seeds/index.ts",
+      "start": "ts-node src/index.ts",
+      "typeorm": "ts-node ./node_modules/.bin/typeorm --"
+   }
+}
