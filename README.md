@@ -3,7 +3,7 @@
 ## How To Get Running
 
 1. Run `npm i` command
-1. Create a Postgres database named `vet_orm_dev`
+1. Create a Postgres database named `vet_orm_dev` (Try `createdb vet_orm_dev` from the command line)
 1. Update database settings inside `ormconfig.json` file
 1. Run `npm run seed` to populate your database
 1. Run `npm run typeorm migration:run` to create the view
